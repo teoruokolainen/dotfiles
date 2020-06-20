@@ -10,3 +10,7 @@ A place for storing my dotfiles.
 - dotfiles config --local status.showUntrackedFiles no
 
 Setup according to guide: https://medium.com/toutsbrasil/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b
+
+## Thanks to
+
+* [Mathias Bynens dotfiles repository] (https://github.com/mathiasbynens/dotfiles)
