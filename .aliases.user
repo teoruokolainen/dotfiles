@@ -1,4 +1,4 @@
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias df='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Easier navigation: .., ..., ...., ....., and -
 alias ..="cd .."
@@ -6,3 +6,10 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias -- -="cd -"
+
+alias update="source $HOME/.bashrc"
+alias g="git"
+alias vi="vim"
+alias v="vim"
+
+alias tointellij="cd /mnt/c/Users/teoru/IdeaProjects" 

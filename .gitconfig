@@ -1,0 +1,8 @@
+[user]
+	email = teo.ruokolainen@outlook.com 
+	name = teoruokolainen
+
+[alias]
+    st = status
+    c = commit
+	a = add
