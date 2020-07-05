@@ -1,2 +1,5 @@
 # Enable possibility to show vi mode in bash
 set show-mode-in-prompt on
+
+# do not bell on tab-completion
+set bell-style none
