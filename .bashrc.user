@@ -7,3 +7,6 @@ set vi-cmd-mode-string \1\e[2 q\2
 # Env variables
 export EDITOR='vim'
 export VISUAL='vim'
+export PATH=$PATH:/usr/local/go/bin
+
+PATH="$(perl -e 'print join(":", grep { not $seen{$_}++ } split(/:/, $ENV{PATH}))')"

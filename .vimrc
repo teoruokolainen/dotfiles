@@ -1,4 +1,3 @@
-inoremap jj <Esc>
 syntax on
 
 set number
@@ -26,9 +25,19 @@ let g:netrw_liststyle=3		" tree view
 call plug#begin()
 
 Plug 'morhetz/gruvbox'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
 colorscheme gruvbox
 set background=dark
 se t_Co=256	" To correctly enable the correct colors in gruvbox
+
+" Enable transparent background in vim
+highlight Normal ctermbg=NONE guibg=NONE
+
+" FZF
+nnoremap <C-p> :Files<Cr>
+
